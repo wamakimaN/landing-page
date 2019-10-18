@@ -1,0 +1,11 @@
+*{
+  border: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+nav{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ min-height: 8vh;
+}
