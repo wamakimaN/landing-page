@@ -1,11 +1,31 @@
-*{
+* {
   border: 0px;
-  margin:0px;
+  margin: 0px;
   box-sizing: border-box;
 }
-nav{
- display: flex;
- justify-content: space-around;
- align-items: center;
- min-height: 8vh;
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(190, 107, 4);
+  list-style: none;
 }
