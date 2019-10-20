@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  font-family: 'Abel', sans-serif;
 }
 
 #container {
@@ -27,16 +28,21 @@ html, body {
 }
 
 nav {
+  position: fixed;
+  z-index: 3;
+  overflow: auto;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
+  background-color: white;
 }
 
 .links {
   display: flex;
   justify-content: space-around;
-  width: 35%;
+  width: 40%;
 }
 
 .links li {
@@ -84,4 +90,8 @@ nav {
     font-size: 30px;
   }
 
-  
+  .banner {
+    height:400px;
+    position: relative;
+    background-image: url(../images/banner.jpg);
+  }
