@@ -16,7 +16,6 @@ html, body {
 #main {
   overflow: auto;
   padding-bottom: 100px;
-  height: 1000px;
 }
 #footer {
   background-color: rgb(187, 163, 28);
@@ -94,4 +93,14 @@ nav {
     height:400px;
     position: relative;
     background-image: url(../images/banner.jpg);
+  }
+
+  #intro img {
+    height: 400px;
+    float: right;
+    
+  }
+
+  #intro {
+    height: 500px;
   }
