@@ -7,10 +7,17 @@
 html, body {
   height: 100%;
   font-family: 'Abel', sans-serif;
+  
 }
 
 #container {
   min-height: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#name {
+  color: brown;
 }
 
 #main {
@@ -25,9 +32,14 @@ html, body {
   margin-top: -100px;
   clear: both;
 }
+h2 {
+  text-align: center;
+  color: teal;
+}
 
 nav {
   position: fixed;
+  color: teal;
   z-index: 3;
   overflow: auto;
   width: 100%;
@@ -53,7 +65,7 @@ nav {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
-  color: rgb(190, 107, 4);
+  color: teal;
   list-style: none;
 }
 
@@ -91,16 +103,25 @@ nav {
 
   .banner {
     height:400px;
+    overflow: auto;
     position: relative;
     background-image: url(../images/banner.jpg);
   }
 
   #intro img {
     height: 400px;
-    float: right;
-    
+    float: left;
+    padding-right: 30px;
   }
 
-  #intro {
-    height: 500px;
+#projects img {
+  width: 1000px;
+}
+
+#intro {
+  height: 450px;
+}
+
+  #about img {
+    width: 500px;
   }
