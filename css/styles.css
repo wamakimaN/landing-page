@@ -58,6 +58,17 @@ nav {
 
 .links li {
   list-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 18px;
+  
+}
+
+.links li:hover {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 18px;
+  border: solid teal;
 }
 
 .links a {
@@ -67,6 +78,13 @@ nav {
   font-size: 14px;
   color: teal;
   list-style: none;
+}
+
+.drop div {
+  width: 25px;
+  height: 3px;
+  background-color: teal;
+  margin: 5px;
 }
 
 #social {
@@ -91,7 +109,7 @@ nav {
   }
   
   .border {
-    margin top 5px;
+    margin-top: 5px;
     border-bottom: 2px solid;
     width: 500px;
     margin-left:430px;
