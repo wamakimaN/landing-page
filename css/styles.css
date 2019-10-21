@@ -65,10 +65,7 @@ nav {
 }
 
 .links li:hover {
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 18px;
-  border: solid teal;
+  box-shadow: teal 0 0 5px;
 }
 
 .links a {
@@ -85,6 +82,10 @@ nav {
   height: 3px;
   background-color: teal;
   margin: 5px;
+}
+
+.drop {
+  display: none;
 }
 
 #social {
